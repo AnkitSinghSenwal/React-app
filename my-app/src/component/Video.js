@@ -1,6 +1,7 @@
 import './Video.css';
 
-function Video(){
+function Video(props){
+    console.log(props)
     let topic = "React Js";
     let bg = 'dark';
     return (<> 

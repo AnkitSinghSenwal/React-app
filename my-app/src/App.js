@@ -3,7 +3,8 @@ import Video from "./component/Video";
 function App(){
   return (<>
   <div>Hello from App.js file</div> 
-  <Video></Video>
+  <Video title="React JS tutorial"></Video>
+  <Video title="Node JS tutorial"></Video>
   </>
   )
 }
